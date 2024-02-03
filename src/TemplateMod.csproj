@@ -20,6 +20,6 @@
     </ItemGroup>
 
     <Target Name="PostBuild" AfterTargets="PostBuildEvent">
-      <Exec Command="call &quot;$(SolutionDir)\buildpackage.bat&quot; &quot;$(TargetDir)&quot; &quot;$(SolutionDir)&quot; &quot;$(ProjectName)&quot;" />
+        <Exec Command="call &quot;$(SolutionDir)\buildpackage.bat&quot; &quot;$(TargetDir)&quot; &quot;$(SolutionDir)&quot; &quot;$(ProjectName)&quot;" />
     </Target>
 </Project>
